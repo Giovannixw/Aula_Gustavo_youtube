@@ -1,0 +1,4 @@
+# Aula_Gustavo_youtube
+Aulas pyton no youtube com o Gustavo, com um projeto de curso em video gratis, com o intuito de ensinar a primeira linguagem 
+from playsound import playsound
+playsound('C:\Users\gijor\OneDrive\Área\de\Trabalho\Album\Circulos1.\Bellanovx\-\Circulos')
