@@ -1,0 +1,10 @@
+# Aula_Gustavo_youtube
+Aulas pyton no youtube com o Gustavo, com um projeto de curso em video gratis, com o intuito de ensinar a primeira linguagem 
+import math
+c1=float(input('digite o comprimento de um cateto adjacente:'))
+c2=float(input('digite o comprimento de um cateto oposto:'))
+c1p = c1**2
+c2p = c2**2
+ad = c1p + c2p 
+raiz = math.sqrt(ad)
+print('a hipote nusa é :{}'.format(raiz))
