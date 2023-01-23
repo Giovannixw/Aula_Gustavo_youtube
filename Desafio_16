@@ -1,0 +1,6 @@
+# Aula_Gustavo_youtube
+Aulas pyton no youtube com o Gustavo, com um projeto de curso em video gratis, com o intuito de ensinar a primeira linguagem 
+n1 = float (input('digite seu salario, para ver o almento de 15%:'))
+sla = (n1 * 15)/100
+slca = n1 + sla 
+print ('seu salario atual é {}, e o aumento e de {}, com o aumento de 15% ficara {}'.format (n1,sla,slca))
