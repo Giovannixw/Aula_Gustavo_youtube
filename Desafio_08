@@ -1,0 +1,10 @@
+# Aula_Gustavo_youtube
+#Aulas pyton no youtube com o Gustavo, com um projeto de curso em video gratis, com o intuito de ensinar a primeira linguagem 
+n1 = float(input('digite um valor, em metros. para ver as suas converções :'))
+m = n1 
+c = n1 * 100
+mi = n1 * 1000
+km = n1 / 1000
+milha = n1 / 1609,34
+pé = n1 * 3,28084
+print ('o metro é {}, em centimetros {} e em milimetros {}, em km {}, em milha {}, em pés {}. '.format(n1,c,mi,km,milha,pé))
