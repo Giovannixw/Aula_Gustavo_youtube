@@ -1,0 +1,9 @@
+# Aula_Gustavo_youtube
+Aulas pyton no youtube com o Gustavo, com um projeto de curso em video gratis, com o intuito de ensinar a primeira linguagem 
+alu1 = (input('digite o nome do 1 aluno:'))
+alu2 = (input('digite o nome do 2 aluno:'))
+alu3 = (input('digite o nome do 3 aluno:'))
+alu4 = (input('digite o nome do 4 aluno:'))
+import random 
+escolhido = random.choice([alu1,alu2,alu3,alu4])
+print('seu aluno escolhido é:{}'.format(escolhido)
