@@ -1,4 +1,7 @@
 # Aula_Gustavo_youtube
 Aulas pyton no youtube com o Gustavo, com um projeto de curso em video gratis, com o intuito de ensinar a primeira linguagem 
-from playsound import playsound
-playsound('C:\Users\gijor\OneDrive\Área\de\Trabalho\Album\Circulos1.\Bellanovx\-\Circulos')
+n1 = float(input('digite quanto dinheiro tem na sua carteira R$:'))
+print('voce tem na carteira {}, e em dolar {:.2f}'.format(n1,n1/ 5.23))
+print ('voce tem na carteira {}, e em euro {:.2f}'.format (n1,n1/5.56))
+print ('voce tem na carteira {}, e em iene {:.2f}'.format(n1,n1*25.25))
+
