@@ -1,0 +1,27 @@
+# Aula_Gustavo_youtube
+#Aulas pyton no youtube com o Gustavo, com um projeto de curso em video gratis, com o intuito de ensinar a primeira linguagem 
+n1 = int(input('digite um numero para ver a sua tabuada:'))
+um = 1*n1
+dois = 2*n1
+três = 3*n1
+quatro = 4*n1
+cinco = 5*n1
+seis = 6*n1
+sete = 7*n1
+oito = 8*n1
+nove = 9*n1
+dez = 10*n1
+print ('a raiz quadrada de {} é : {},{},{},{},{},{},{},{},{},{}'.format(n1,um,dois,três,quatro,cinco,seis,sete,oito,nove,dez))
+#2 jeito de fazer...
+num = int(input('digite um numero para ver a sua tabuada:'))
+print ('{} x {:2} = {} '.format (num,1,num*1))
+print ('{} x {:2} = {}'.format (num,2,num*2))
+print ('{} x {:2} = {}'.format (num,3,num*3))
+print ('{} x {:2} = {}'.format (num,4,num*4))
+print ('{} x {:2} = {}'.format (num,5,num*5))
+print ('{} x {:2} = {}'.format (num,6,num*6))
+print ('{} x {:2} = {}'.format (num,7,num*7))
+print ('{} x {:2} = {}'.format (num,8,num*8))
+print ('{} x {:2} = {}'.format (num,9,num*9))
+print ('{} x {:2} = {}'.format (num,10,num*10))
+#:2 e para deixar 2 digitos, funciona para organizar os numeros
