@@ -1,0 +1,15 @@
+np1 =float (input('digite a nota da np1:'))
+np2 =float (input('digite a nota da np2:'))
+ms = np1 /2 + np2 /2
+if (ms>7) :
+    print ('Sua nota da np1 : {:.1f}, sua nota da np2 {}, sua nota do semestre:{}, parabens vocÊ passou '.format (np1,np2,ms))
+elif (ms<7):
+    print('Sua nota da np1 : {}, sua nota da np2 {}, sua nota do semestre:{}, calma,ainda dá, vai ter que fazer o exame'.format (np1,np2,ms))
+ms2 = float (input('digite sua media semestral:'))
+ex = float (input('digite seu exame:'))
+mf = ms2 /2 + ex /2
+if (mf>5) :
+    print ('parabens, você passou, sua nota foi {:.1f}'.format (mf)) 
+elif (ex<5) :
+    print ('sua nota é {},vish fio é dp kkkkkkkk'.format (mf)) 
+#de brincadeira so pra testar oq aprendi kkkkkk
