@@ -1,0 +1,8 @@
+# Aula_Gustavo_youtube
+Aulas pyton no youtube com o Gustavo, com um projeto de curso em video gratis, com o intuito de ensinar a primeira linguagem 
+import math
+num = float(input('digite um angulo pra saber o valor de seno, cosceno e tangente:'))
+seno = math.sin(num)
+cosceno = math.cos(num)
+tan = math.tan(num)
+print ('o angulo é {}, o seno é {:.2f}, o cosceno {:.2f}, e o tangente {:.2f}'.format(num,seno,cosceno,tan))
