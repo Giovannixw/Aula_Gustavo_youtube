@@ -1,0 +1,6 @@
+# Aula_Gustavo_youtube
+Aulas pyton no youtube com o Gustavo, com um projeto de curso em video gratis, com o intuito de ensinar a primeira linguagem 
+n1 = float(input('fale quanto esta o produto :'))
+pn = (n1 * 5)/100
+pf = (n1-pn)
+print ('o produto custa {}, com desconto de 5% é de {:.2f}, valor final {:.2f}'.format (n1,pn,pf))
