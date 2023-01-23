@@ -1,0 +1,9 @@
+# Aula_Gustavo_youtube
+Aulas pyton no youtube com o Gustavo, com um projeto de curso em video gratis, com o intuito de ensinar a primeira linguagem 
+nome =input ('digite seu nome:')
+print ('prazer',nome,',seu nome e lindo')
+idade = int(input ('digite sua idade'))
+if (idade<60):
+     print(idade,'ainda e jovem')
+else:
+     print (idade,'já esta velho')
